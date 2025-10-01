@@ -19,7 +19,9 @@ public class Main extends ConsoleProgram {
 
         // Example program: prompt user and print greeting
         String name = readLine("Enter your name: ");
-        println("Hello, " + name + "!");
+        System.out.println("Hello, " + name + "!");
+        int age = readInt("How old are you? ");
+        System.out.println("you are " + age + " years old.");
 
         // === END OF YOUR CODE ===
     }
